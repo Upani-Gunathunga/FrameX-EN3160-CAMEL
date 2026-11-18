@@ -1,0 +1,242 @@
+{
+  "Exclude-0 ResNet101": {
+    "accuracy": 0.3548387096774194,
+    "mean_confidence": 0.37103222406679587,
+    "ece": 0.05093059760908925,
+    "classes": [
+      {
+        "class": "AMD",
+        "support": 48,
+        "recall": 0.125,
+        "mean_top_prediction_confidence": 0.37652821900943917,
+        "mean_wrong_prediction_confidence": 0.361165178673608,
+        "predicted_count": 8
+      },
+      {
+        "class": "DME",
+        "support": 38,
+        "recall": 0.0,
+        "mean_top_prediction_confidence": 0.3703901022672653,
+        "mean_wrong_prediction_confidence": 0.3703901022672653,
+        "predicted_count": 0
+      },
+      {
+        "class": "Normal",
+        "support": 38,
+        "recall": 1.0,
+        "mean_top_prediction_confidence": 0.3647320364650927,
+        "mean_wrong_prediction_confidence": null,
+        "predicted_count": 116
+      }
+    ],
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        42
+      ],
+      [
+        2,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        38
+      ]
+    ]
+  },
+  "Exclude-0 EfficientNet-B0": {
+    "accuracy": 0.8306451612903226,
+    "mean_confidence": 0.8847100967841763,
+    "ece": 0.05795890213020381,
+    "classes": [
+      {
+        "class": "AMD",
+        "support": 48,
+        "recall": 0.9583333333333334,
+        "mean_top_prediction_confidence": 0.8427953844269117,
+        "mean_wrong_prediction_confidence": 0.7276114821434021,
+        "predicted_count": 64
+      },
+      {
+        "class": "DME",
+        "support": 38,
+        "recall": 0.9736842105263158,
+        "mean_top_prediction_confidence": 0.9875075456343199,
+        "mean_wrong_prediction_confidence": 0.6692224144935608,
+        "predicted_count": 38
+      },
+      {
+        "class": "Normal",
+        "support": 38,
+        "recall": 0.5263157894736842,
+        "mean_top_prediction_confidence": 0.8348575477537356,
+        "mean_wrong_prediction_confidence": 0.7397539996438556,
+        "predicted_count": 22
+      }
+    ],
+    "confusion_matrix": [
+      [
+        46,
+        1,
+        1
+      ],
+      [
+        0,
+        37,
+        1
+      ],
+      [
+        18,
+        0,
+        20
+      ]
+    ]
+  },
+  "Exclude-0 EfficientNet-B7": {
+    "accuracy": 0.7338709677419355,
+    "mean_confidence": 0.7078263314981614,
+    "ece": 0.04954236962141531,
+    "classes": [
+      {
+        "class": "AMD",
+        "support": 48,
+        "recall": 0.4166666666666667,
+        "mean_top_prediction_confidence": 0.5104035132875046,
+        "mean_wrong_prediction_confidence": 0.5082473957112857,
+        "predicted_count": 23
+      },
+      {
+        "class": "DME",
+        "support": 38,
+        "recall": 1.0,
+        "mean_top_prediction_confidence": 0.9541629976347873,
+        "mean_wrong_prediction_confidence": null,
+        "predicted_count": 46
+      },
+      {
+        "class": "Normal",
+        "support": 38,
+        "recall": 0.868421052631579,
+        "mean_top_prediction_confidence": 0.7108658567855233,
+        "mean_wrong_prediction_confidence": 0.5015696346759796,
+        "predicted_count": 55
+      }
+    ],
+    "confusion_matrix": [
+      [
+        20,
+        6,
+        22
+      ],
+      [
+        0,
+        38,
+        0
+      ],
+      [
+        3,
+        2,
+        33
+      ]
+    ]
+  },
+  "Equal averaging": {
+    "accuracy": 0.8548387096774194,
+    "mean_confidence": 0.6221297900442795,
+    "ece": 0.23270891963313983,
+    "classes": [
+      {
+        "class": "AMD",
+        "support": 48,
+        "recall": 0.9375,
+        "mean_top_prediction_confidence": 0.5365191999201974,
+        "mean_wrong_prediction_confidence": 0.4605307661824756,
+        "predicted_count": 60
+      },
+      {
+        "class": "DME",
+        "support": 38,
+        "recall": 1.0,
+        "mean_top_prediction_confidence": 0.7441710787906981,
+        "mean_wrong_prediction_confidence": null,
+        "predicted_count": 40
+      },
+      {
+        "class": "Normal",
+        "support": 38,
+        "recall": 0.6052631578947368,
+        "mean_top_prediction_confidence": 0.6082281940861753,
+        "mean_wrong_prediction_confidence": 0.5083876245551638,
+        "predicted_count": 24
+      }
+    ],
+    "confusion_matrix": [
+      [
+        45,
+        2,
+        1
+      ],
+      [
+        0,
+        38,
+        0
+      ],
+      [
+        15,
+        0,
+        23
+      ]
+    ]
+  },
+  "ECE-weighted averaging": {
+    "accuracy": 0.8629032258064516,
+    "mean_confidence": 0.6167350469560618,
+    "ece": 0.24616817885038983,
+    "classes": [
+      {
+        "class": "AMD",
+        "support": 48,
+        "recall": 0.9375,
+        "mean_top_prediction_confidence": 0.5293313808860608,
+        "mean_wrong_prediction_confidence": 0.45744780385779604,
+        "predicted_count": 59
+      },
+      {
+        "class": "DME",
+        "support": 38,
+        "recall": 1.0,
+        "mean_top_prediction_confidence": 0.739894953924766,
+        "mean_wrong_prediction_confidence": null,
+        "predicted_count": 40
+      },
+      {
+        "class": "Normal",
+        "support": 38,
+        "recall": 0.631578947368421,
+        "mean_top_prediction_confidence": 0.6039797708126219,
+        "mean_wrong_prediction_confidence": 0.5067330468784069,
+        "predicted_count": 25
+      }
+    ],
+    "confusion_matrix": [
+      [
+        45,
+        2,
+        1
+      ],
+      [
+        0,
+        38,
+        0
+      ],
+      [
+        14,
+        0,
+        24
+      ]
+    ]
+  }
+}

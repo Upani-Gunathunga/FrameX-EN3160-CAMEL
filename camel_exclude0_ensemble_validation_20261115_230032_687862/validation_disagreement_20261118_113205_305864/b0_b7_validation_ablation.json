@@ -1,0 +1,37 @@
+{
+  "B0 alone": {
+    "correct": 103,
+    "image_count": 124,
+    "accuracy_percent": 83.06451612903226,
+    "helped_b0": 0,
+    "harmed_b0": 0
+  },
+  "B7 alone": {
+    "correct": 91,
+    "image_count": 124,
+    "accuracy_percent": 73.38709677419355,
+    "helped_b0": 16,
+    "harmed_b0": 28
+  },
+  "B0 + B7 equal": {
+    "correct": 106,
+    "image_count": 124,
+    "accuracy_percent": 85.48387096774194,
+    "helped_b0": 4,
+    "harmed_b0": 1
+  },
+  "Three-model equal": {
+    "correct": 106,
+    "image_count": 124,
+    "accuracy_percent": 85.48387096774194,
+    "helped_b0": 4,
+    "harmed_b0": 1
+  },
+  "Three-model ECE-weighted": {
+    "correct": 107,
+    "image_count": 124,
+    "accuracy_percent": 86.29032258064517,
+    "helped_b0": 5,
+    "harmed_b0": 1
+  }
+}
